@@ -1,8 +1,10 @@
 from setuptools import setup, find_packages
 
+# import the README
 with open("README.md", "r") as readme_file:
     readme = readme_file.read()
 
+# package metadata
 setup(
     name='SE20_HW1',
     version='0.1',
