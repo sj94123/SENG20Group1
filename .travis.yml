@@ -1,4 +1,4 @@
 language: python
 python:
   - 3.6
-script: pytest /code/__init__.py
+script: pytest __init__.py
